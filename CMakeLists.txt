@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c++11")
+project(clustering)
+add_executable( clustering main.cpp dbscan.h)
+target_compile_features(clustering PRIVATE cxx_range_for)
