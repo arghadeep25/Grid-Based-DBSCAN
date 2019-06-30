@@ -10,10 +10,16 @@
 
 ### Compile
 $ git clone https://github.com/arghadeep25/Grid-Based-DBSCAN.git
+
 $cd Grid-Based-DBSCAN
+
 $mkdir build
+
 $cd build
+
 $cmake ..
+
 $make
+
 $./clustering ../../data/
 
